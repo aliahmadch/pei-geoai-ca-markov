@@ -1,4 +1,4 @@
-# pei-geoai-ca-markov
+# Spatially Validated GeoAI and ANN-CA-Markov Modelling for Land-Change Scenarios in Prince Edward Island
 
 Code, trained models and data for:
 
