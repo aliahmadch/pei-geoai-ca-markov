@@ -1,0 +1,25 @@
+{
+ "model": "fmtunet",
+ "part": "tuned",
+ "trial": 22,
+ "hp": {
+  "batch": 128,
+  "class_weight": "none",
+  "d": 32,
+  "dropout": 0.0,
+  "epochs": 10,
+  "lr": 0.003,
+  "weight_decay": 1e-05
+ },
+ "quick": false,
+ "cpu": [
+  "Intel(R) Xeon(R) 6972P"
+ ],
+ "host": "c161.nibi.sharcnet",
+ "versions": {
+  "sklearn": "1.8.0",
+  "torch": "2.14.1",
+  "numpy": "1.26.4",
+  "pandas": "3.0.5"
+ }
+}

@@ -1,0 +1,7 @@
+CPU(s):                                  192
+Model name:                              Intel(R) Xeon(R) 6972P
+Thread(s) per core:                      1
+CPU(s) scaling MHz:                      74%
+CPU max MHz:                             3900.0000
+CPU min MHz:                             800.0000
+c161.nibi.sharcnet

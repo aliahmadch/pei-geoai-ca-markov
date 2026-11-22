@@ -1,0 +1,26 @@
+{
+ "model": "deepmlp",
+ "part": "alt",
+ "trial": 17,
+ "hp": {
+  "alpha": 0.01,
+  "batch_size": "auto",
+  "hidden": [
+   128,
+   64,
+   32
+  ],
+  "learning_rate_init": 0.0003
+ },
+ "quick": false,
+ "cpu": [
+  "Intel(R) Xeon(R) 6972P"
+ ],
+ "host": "c161.nibi.sharcnet",
+ "versions": {
+  "sklearn": "1.8.0",
+  "torch": "2.14.1",
+  "numpy": "1.26.4",
+  "pandas": "3.0.5"
+ }
+}

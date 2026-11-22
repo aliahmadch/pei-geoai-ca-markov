@@ -1,0 +1,26 @@
+{
+ "model": "xgboost",
+ "part": "default",
+ "trial": 0,
+ "hp": {
+  "n_estimators": 180,
+  "max_depth": 6,
+  "learning_rate": 0.08,
+  "subsample": 0.8,
+  "colsample_bytree": 0.8,
+  "min_child_weight": 1,
+  "reg_lambda": 1,
+  "class_weight": "none"
+ },
+ "quick": false,
+ "cpu": [
+  "Intel(R) Xeon(R) 6972P"
+ ],
+ "host": "c161.nibi.sharcnet",
+ "versions": {
+  "sklearn": "1.8.0",
+  "torch": "2.14.1",
+  "numpy": "1.26.4",
+  "pandas": "3.0.5"
+ }
+}

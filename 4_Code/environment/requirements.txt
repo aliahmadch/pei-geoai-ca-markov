@@ -1,0 +1,17 @@
+# Python packages (versions used in brackets).
+# Classifiers - tuning and final models (Python 3.11 on a Linux CPU cluster):
+numpy          # 1.26.4
+pandas         # 3.0.5
+scikit-learn   # 1.8.0
+torch          # 2.14.1
+xgboost        # 3.2.0
+lightgbm       # 4.7.0
+catboost       # 1.2.7
+joblib         # 1.6.0
+# Sample extraction, mapping, land-change model and checks (Python 3.13; numpy 2.5.3, scikit-learn 1.9.1, GDAL 3.12.2):
+rasterio       # 1.5.2
+geopandas      # 1.2.0
+shapely        # 2.2.0
+pyproj         # 3.8.0
+scipy          # 1.18.1
+opencv-python-headless   # 5.0.0

@@ -1,0 +1,9 @@
+swingnnet       trial  3  CV OA 0.9267 (default 0.9157)  common 0.9267  trials 30/30  {"batch": 128, "class_weight": "none", "d": 64, "epochs": 10, "lr": 0.0003, "weight_decay": 0.001}
+vchnet          trial 10  CV OA 0.9230 (default 0.9150)  common 0.9230  trials 30/30  {"batch": 128, "class_weight": "none", "d": 48, "dropout": 0.0, "epochs": 10, "lr": 0.0003, "weight_decay": 1e-05}
+fmtunet         trial 22  CV OA 0.9226 (default 0.9075)  common 0.9226  trials 30/30  {"batch": 128, "class_weight": "none", "d": 32, "dropout": 0.0, "epochs": 10, "lr": 0.003, "weight_decay": 1e-05}
+timesenclip     trial  1  CV OA 0.9213 (default 0.9099)  common 0.9213  trials 30/30  {"batch": 64, "class_weight": "none", "d": 96, "epochs": 10, "lr": 0.001, "weight_decay": 0.0001}
+xgboost         trial  9  CV OA 0.9023 (default 0.8990)  common 0.9015  trials 30/30  {"class_weight": "balanced", "colsample_bytree": 0.6, "learning_rate": 0.03, "max_depth": 4, "min_child_weight": 1, "n_estimators": 180, "reg_lambda": 3, "subsample": 0.6}
+ft_transformer  trial  7  CV OA 0.9020 (default 0.8882)  common 0.9003  trials 30/30  {"batch": 256, "class_weight": "balanced", "d": 32, "dropout": 0.2, "epochs": 40, "ff": 64, "lr": 0.001, "n_layers": 3, "weight_decay": 1e-05}
+catboost        trial 26  CV OA 0.9013 (default 0.8972)  common 0.9002  trials 30/30  {"class_weight": "balanced", "depth": 8, "iterations": 300, "l2_leaf_reg": 1, "learning_rate": 0.03}
+lightgbm        trial 29  CV OA 0.9013 (default 0.8997)  common 0.9002  trials 30/30  {"class_weight": "balanced", "colsample_bytree": 0.6, "learning_rate": 0.05, "min_child_samples": 10, "n_estimators": 800, "num_leaves": 15, "reg_lambda": 0, "subsample": 0.8}
+deepmlp         trial 17  CV OA 0.9004 (default 0.8954)  common 0.8995  trials 30/30  {"alpha": 0.01, "batch_size": "auto", "hidden": [128, 64, 32], "learning_rate_init": 0.0003}

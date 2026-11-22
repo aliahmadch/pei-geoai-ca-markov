@@ -1,0 +1,181 @@
+year,rule,model,n,OA
+2021,none,catboost,2249,0.930635838150289
+2021,drop crossing polygons,catboost,2207,0.9293158133212506
+2021,drop crossing + <250 m,catboost,2148,0.9278398510242085
+2021,drop crossing + <1 km,catboost,1604,0.9064837905236908
+2021,none,lightgbm,2249,0.9724321920853712
+2021,drop crossing polygons,lightgbm,2207,0.9719075668328047
+2021,drop crossing + <250 m,lightgbm,2148,0.9716014897579144
+2021,drop crossing + <1 km,lightgbm,1604,0.9650872817955112
+2021,none,xgboost,2249,0.9684304135171187
+2021,drop crossing polygons,xgboost,2207,0.9678296329859538
+2021,drop crossing + <250 m,xgboost,2148,0.9678770949720671
+2021,drop crossing + <1 km,xgboost,1604,0.9625935162094763
+2021,none,deepmlp,2249,0.9817696754112939
+2021,drop crossing polygons,deepmlp,2207,0.9814227458087902
+2021,drop crossing + <250 m,deepmlp,2148,0.9813780260707635
+2021,drop crossing + <1 km,deepmlp,1604,0.9788029925187033
+2021,none,ft_transformer,2249,0.9764339706536238
+2021,drop crossing polygons,ft_transformer,2207,0.9759855006796556
+2021,drop crossing + <250 m,ft_transformer,2148,0.9762569832402235
+2021,drop crossing + <1 km,ft_transformer,1604,0.9775561097256857
+2021,none,vchnet,2249,0.9119608714984437
+2021,drop crossing polygons,vchnet,2207,0.9102854553692795
+2021,drop crossing + <250 m,vchnet,2148,0.9120111731843575
+2021,drop crossing + <1 km,vchnet,1604,0.8927680798004988
+2021,none,swingnnet,2249,0.9141840818141396
+2021,drop crossing polygons,swingnnet,2207,0.9125509741730856
+2021,drop crossing + <250 m,swingnnet,2148,0.9152700186219739
+2021,drop crossing + <1 km,swingnnet,1604,0.89214463840399
+2021,none,fmtunet,2249,0.9164072921298355
+2021,drop crossing polygons,fmtunet,2207,0.9148164929768917
+2021,drop crossing + <250 m,fmtunet,2148,0.9129422718808193
+2021,drop crossing + <1 km,fmtunet,1604,0.8877805486284289
+2021,none,timesenclip,2249,0.9208537127612272
+2021,drop crossing polygons,timesenclip,2207,0.9193475305845038
+2021,drop crossing + <250 m,timesenclip,2148,0.9217877094972067
+2021,drop crossing + <1 km,timesenclip,1604,0.9027431421446384
+2022,none,catboost,2548,0.9803767660910518
+2022,drop crossing polygons,catboost,2440,0.9795081967213115
+2022,drop crossing + <250 m,catboost,2146,0.9771668219944082
+2022,drop crossing + <1 km,catboost,1810,0.9773480662983426
+2022,none,lightgbm,2548,0.9733124018838305
+2022,drop crossing polygons,lightgbm,2440,0.9721311475409836
+2022,drop crossing + <250 m,lightgbm,2146,0.9697110904007455
+2022,drop crossing + <1 km,lightgbm,1810,0.969060773480663
+2022,none,xgboost,2548,0.9713500784929356
+2022,drop crossing polygons,xgboost,2440,0.9717213114754099
+2022,drop crossing + <250 m,xgboost,2146,0.9711090400745573
+2022,drop crossing + <1 km,xgboost,1810,0.9729281767955801
+2022,none,deepmlp,2548,0.9678178963893249
+2022,drop crossing polygons,deepmlp,2440,0.9663934426229508
+2022,drop crossing + <250 m,deepmlp,2146,0.9622553588070829
+2022,drop crossing + <1 km,deepmlp,1810,0.961878453038674
+2022,none,ft_transformer,2548,0.9607535321821036
+2022,drop crossing polygons,ft_transformer,2440,0.9590163934426229
+2022,drop crossing + <250 m,ft_transformer,2146,0.9552656104380243
+2022,drop crossing + <1 km,ft_transformer,1810,0.9558011049723757
+2022,none,vchnet,2548,0.9693877551020408
+2022,drop crossing polygons,vchnet,2440,0.9680327868852459
+2022,drop crossing + <250 m,vchnet,2146,0.9687791239515378
+2022,drop crossing + <1 km,vchnet,1810,0.9685082872928177
+2022,none,swingnnet,2548,0.9705651491365777
+2022,drop crossing polygons,swingnnet,2440,0.9692622950819673
+2022,drop crossing + <250 m,swingnnet,2146,0.9692451071761417
+2022,drop crossing + <1 km,swingnnet,1810,0.969060773480663
+2022,none,fmtunet,2548,0.9493720565149136
+2022,drop crossing polygons,fmtunet,2440,0.9471311475409836
+2022,drop crossing + <250 m,fmtunet,2146,0.9440820130475303
+2022,drop crossing + <1 km,fmtunet,1810,0.9353591160220994
+2022,none,timesenclip,2548,0.9709576138147566
+2022,drop crossing polygons,timesenclip,2440,0.969672131147541
+2022,drop crossing + <250 m,timesenclip,2146,0.9683131407269339
+2022,drop crossing + <1 km,timesenclip,1810,0.9685082872928177
+2023,none,catboost,1783,0.8536174985978687
+2023,drop crossing polygons,catboost,1655,0.8435045317220544
+2023,drop crossing + <250 m,catboost,1496,0.8315508021390374
+2023,drop crossing + <1 km,catboost,895,0.9407821229050279
+2023,none,lightgbm,1783,0.9349411104879417
+2023,drop crossing polygons,lightgbm,1655,0.9299093655589123
+2023,drop crossing + <250 m,lightgbm,1496,0.9258021390374331
+2023,drop crossing + <1 km,lightgbm,895,0.9329608938547486
+2023,none,xgboost,1783,0.9141895681435782
+2023,drop crossing polygons,xgboost,1655,0.9081570996978852
+2023,drop crossing + <250 m,xgboost,1496,0.9017379679144385
+2023,drop crossing + <1 km,xgboost,895,0.9128491620111732
+2023,none,deepmlp,1783,0.860347728547392
+2023,drop crossing polygons,deepmlp,1655,0.8495468277945619
+2023,drop crossing + <250 m,deepmlp,1496,0.8355614973262032
+2023,drop crossing + <1 km,deepmlp,895,0.9787709497206704
+2023,none,ft_transformer,1783,0.8216489063376332
+2023,drop crossing polygons,ft_transformer,1655,0.8096676737160121
+2023,drop crossing + <250 m,ft_transformer,1496,0.7927807486631016
+2023,drop crossing + <1 km,ft_transformer,895,0.9675977653631285
+2023,none,vchnet,1783,0.854739203589456
+2023,drop crossing polygons,vchnet,1655,0.8435045317220544
+2023,drop crossing + <250 m,vchnet,1496,0.8275401069518716
+2023,drop crossing + <1 km,vchnet,895,0.9843575418994414
+2023,none,swingnnet,1783,0.8227706113292205
+2023,drop crossing polygons,swingnnet,1655,0.8090634441087613
+2023,drop crossing + <250 m,swingnnet,1496,0.7894385026737968
+2023,drop crossing + <1 km,swingnnet,895,0.9653631284916201
+2023,none,fmtunet,1783,0.8244531688166012
+2023,drop crossing polygons,fmtunet,1655,0.8108761329305136
+2023,drop crossing + <250 m,fmtunet,1496,0.7914438502673797
+2023,drop crossing + <1 km,fmtunet,895,0.9575418994413408
+2023,none,timesenclip,1783,0.9270891755468312
+2023,drop crossing polygons,timesenclip,1655,0.9214501510574018
+2023,drop crossing + <250 m,timesenclip,1496,0.9137700534759359
+2023,drop crossing + <1 km,timesenclip,895,0.982122905027933
+2024,none,catboost,3586,0.9369771332961517
+2024,drop crossing polygons,catboost,3334,0.9373125374925015
+2024,drop crossing + <250 m,catboost,3263,0.9377873122893043
+2024,drop crossing + <1 km,catboost,2060,0.9427184466019417
+2024,none,lightgbm,3586,0.9074177356385945
+2024,drop crossing polygons,lightgbm,3334,0.9037192561487702
+2024,drop crossing + <250 m,lightgbm,3263,0.9043824701195219
+2024,drop crossing + <1 km,lightgbm,2060,0.9160194174757281
+2024,none,xgboost,3586,0.9305633017289459
+2024,drop crossing polygons,xgboost,3334,0.9301139772045591
+2024,drop crossing + <250 m,xgboost,3263,0.9307385841250383
+2024,drop crossing + <1 km,xgboost,2060,0.9407766990291262
+2024,none,deepmlp,3586,0.9152258784160625
+2024,drop crossing polygons,deepmlp,3334,0.915116976604679
+2024,drop crossing + <250 m,deepmlp,3263,0.9135764633772602
+2024,drop crossing + <1 km,deepmlp,2060,0.9247572815533981
+2024,none,ft_transformer,3586,0.9274958170663692
+2024,drop crossing polygons,ft_transformer,3334,0.9286142771445711
+2024,drop crossing + <250 m,ft_transformer,3263,0.9282868525896414
+2024,drop crossing + <1 km,ft_transformer,2060,0.9436893203883495
+2024,none,vchnet,3586,0.871723368655884
+2024,drop crossing polygons,vchnet,3334,0.862627474505099
+2024,drop crossing + <250 m,vchnet,3263,0.8599448360404536
+2024,drop crossing + <1 km,vchnet,2060,0.8689320388349514
+2024,none,swingnnet,3586,0.8865030674846626
+2024,drop crossing polygons,swingnnet,3334,0.882123575284943
+2024,drop crossing + <250 m,swingnnet,3263,0.8826233527428746
+2024,drop crossing + <1 km,swingnnet,2060,0.875242718446602
+2024,none,fmtunet,3586,0.8823201338538762
+2024,drop crossing polygons,fmtunet,3334,0.8764247150569886
+2024,drop crossing + <250 m,fmtunet,3263,0.8740422923689856
+2024,drop crossing + <1 km,fmtunet,2060,0.8786407766990292
+2024,none,timesenclip,3586,0.8851087562744004
+2024,drop crossing polygons,timesenclip,3334,0.8794241151769646
+2024,drop crossing + <250 m,timesenclip,3263,0.8771069567882317
+2024,drop crossing + <1 km,timesenclip,2060,0.8650485436893204
+2025,none,catboost,2260,0.9309734513274336
+2025,drop crossing polygons,catboost,2107,0.927859515899383
+2025,drop crossing + <250 m,catboost,2055,0.9265206812652068
+2025,drop crossing + <1 km,catboost,1324,0.9191842900302115
+2025,none,lightgbm,2260,0.9314159292035398
+2025,drop crossing polygons,lightgbm,2107,0.9283341243474134
+2025,drop crossing + <250 m,lightgbm,2055,0.927007299270073
+2025,drop crossing + <1 km,lightgbm,1324,0.9282477341389728
+2025,none,xgboost,2260,0.9252212389380531
+2025,drop crossing polygons,xgboost,2107,0.9216896060749882
+2025,drop crossing + <250 m,xgboost,2055,0.9201946472019464
+2025,drop crossing + <1 km,xgboost,1324,0.9154078549848943
+2025,none,deepmlp,2260,0.9486725663716814
+2025,drop crossing polygons,deepmlp,2107,0.946843853820598
+2025,drop crossing + <250 m,deepmlp,2055,0.9454987834549878
+2025,drop crossing + <1 km,deepmlp,1324,0.9410876132930514
+2025,none,ft_transformer,2260,0.9526548672566372
+2025,drop crossing polygons,ft_transformer,2107,0.9511153298528714
+2025,drop crossing + <250 m,ft_transformer,2055,0.9503649635036496
+2025,drop crossing + <1 km,ft_transformer,1324,0.9478851963746223
+2025,none,vchnet,2260,0.9809734513274336
+2025,drop crossing polygons,vchnet,2107,0.9795918367346939
+2025,drop crossing + <250 m,vchnet,2055,0.9790754257907542
+2025,drop crossing + <1 km,vchnet,1324,0.9901812688821753
+2025,none,swingnnet,2260,0.9561946902654868
+2025,drop crossing polygons,swingnnet,2107,0.9530137636449929
+2025,drop crossing + <250 m,swingnnet,2055,0.9518248175182482
+2025,drop crossing + <1 km,swingnnet,1324,0.9652567975830816
+2025,none,fmtunet,2260,0.9628318584070796
+2025,drop crossing polygons,fmtunet,2107,0.96203132415757
+2025,drop crossing + <250 m,fmtunet,2055,0.9610705596107056
+2025,drop crossing + <1 km,fmtunet,1324,0.966012084592145
+2025,none,timesenclip,2260,0.9628318584070796
+2025,drop crossing polygons,timesenclip,2107,0.9606074988134788
+2025,drop crossing + <250 m,timesenclip,2055,0.9596107055961071
+2025,drop crossing + <1 km,timesenclip,1324,0.9780966767371602

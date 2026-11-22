@@ -1,0 +1,4 @@
+The Sentinel-2 feature tiles (950 tiles of 13 bands per year, about 2.1 GB per year) are too large for GitHub.
+They are on Zenodo (https://doi.org/10.5281/zenodo.24238874) as one zip per year:
+feature_tiles_v4_2021.zip, feature_tiles_v4_2022.zip, feature_tiles_v4_2023.zip, feature_tiles_v4_2024.zip and
+feature_tiles_v4_2025.zip. Unzip them in the top folder; they create data/feature_tiles_v4/<year>/, the path the code uses.

@@ -1,0 +1,429 @@
+{
+ "classifiers": [
+  "catboost",
+  "lightgbm",
+  "xgboost",
+  "deepmlp",
+  "ft_transformer",
+  "vchnet",
+  "swingnnet",
+  "fmtunet",
+  "timesenclip"
+ ],
+ "patch_classifiers": [
+  "vchnet",
+  "swingnnet",
+  "fmtunet",
+  "timesenclip"
+ ],
+ "n_trials": 30,
+ "k_folds": 3,
+ "trial_0": "configuration fixed before tuning (DEFAULT)",
+ "trials_1_to_29": "drawn without repetition from GRID with random.Random(1000 + index of the classifier in \"classifiers\")",
+ "cross_validation": "GroupKFold over whole 3 km blocks within the training partition (seed 42) of each year; 3 folds x 5 years = 15 scores per configuration",
+ "selection": "highest mean cross-validated OA over the 15 year-folds (ties: lower trial number); one configuration per classifier for all years",
+ "DEFAULT": {
+  "catboost": {
+   "iterations": 180,
+   "depth": 6,
+   "learning_rate": 0.08,
+   "l2_leaf_reg": 3,
+   "class_weight": "balanced"
+  },
+  "lightgbm": {
+   "n_estimators": 180,
+   "num_leaves": 31,
+   "learning_rate": 0.08,
+   "min_child_samples": 20,
+   "colsample_bytree": 0.8,
+   "subsample": 1.0,
+   "reg_lambda": 0,
+   "class_weight": "balanced"
+  },
+  "xgboost": {
+   "n_estimators": 180,
+   "max_depth": 6,
+   "learning_rate": 0.08,
+   "subsample": 0.8,
+   "colsample_bytree": 0.8,
+   "min_child_weight": 1,
+   "reg_lambda": 1,
+   "class_weight": "none"
+  },
+  "deepmlp": {
+   "hidden": [
+    96,
+    48
+   ],
+   "alpha": 0.0001,
+   "learning_rate_init": 0.001,
+   "batch_size": "auto"
+  },
+  "ft_transformer": {
+   "d": 32,
+   "n_layers": 2,
+   "ff": 64,
+   "dropout": 0.1,
+   "lr": 0.001,
+   "weight_decay": 0.0001,
+   "epochs": 20,
+   "batch": 256,
+   "class_weight": "none"
+  },
+  "vchnet": {
+   "d": 48,
+   "dropout": 0.1,
+   "lr": 0.001,
+   "weight_decay": 0.0001,
+   "epochs": 10,
+   "batch": 64,
+   "class_weight": "none"
+  },
+  "swingnnet": {
+   "d": 48,
+   "lr": 0.001,
+   "weight_decay": 0.0001,
+   "epochs": 10,
+   "batch": 64,
+   "class_weight": "none"
+  },
+  "fmtunet": {
+   "d": 32,
+   "dropout": 0.1,
+   "lr": 0.001,
+   "weight_decay": 0.0001,
+   "epochs": 10,
+   "batch": 64,
+   "class_weight": "none"
+  },
+  "timesenclip": {
+   "d": 48,
+   "lr": 0.001,
+   "weight_decay": 0.0001,
+   "epochs": 10,
+   "batch": 64,
+   "class_weight": "none"
+  }
+ },
+ "GRID": {
+  "catboost": {
+   "iterations": [
+    180,
+    300,
+    500,
+    800
+   ],
+   "depth": [
+    4,
+    6,
+    8
+   ],
+   "learning_rate": [
+    0.03,
+    0.05,
+    0.08,
+    0.12
+   ],
+   "l2_leaf_reg": [
+    1,
+    3,
+    10
+   ],
+   "class_weight": [
+    "balanced",
+    "sqrt",
+    "none"
+   ]
+  },
+  "lightgbm": {
+   "n_estimators": [
+    180,
+    300,
+    500,
+    800
+   ],
+   "num_leaves": [
+    15,
+    31,
+    63
+   ],
+   "learning_rate": [
+    0.03,
+    0.05,
+    0.08,
+    0.12
+   ],
+   "min_child_samples": [
+    10,
+    20,
+    40
+   ],
+   "colsample_bytree": [
+    0.6,
+    0.8,
+    1.0
+   ],
+   "subsample": [
+    0.6,
+    0.8,
+    1.0
+   ],
+   "reg_lambda": [
+    0,
+    1,
+    10
+   ],
+   "class_weight": [
+    "balanced",
+    "none"
+   ]
+  },
+  "xgboost": {
+   "n_estimators": [
+    180,
+    300,
+    500,
+    800
+   ],
+   "max_depth": [
+    4,
+    6,
+    8
+   ],
+   "learning_rate": [
+    0.03,
+    0.05,
+    0.08,
+    0.12
+   ],
+   "subsample": [
+    0.6,
+    0.8,
+    1.0
+   ],
+   "colsample_bytree": [
+    0.6,
+    0.8,
+    1.0
+   ],
+   "min_child_weight": [
+    1,
+    3,
+    5
+   ],
+   "reg_lambda": [
+    1,
+    3,
+    10
+   ],
+   "class_weight": [
+    "none",
+    "balanced"
+   ]
+  },
+  "deepmlp": {
+   "hidden": [
+    [
+     96,
+     48
+    ],
+    [
+     128,
+     64
+    ],
+    [
+     256,
+     128
+    ],
+    [
+     128,
+     64,
+     32
+    ]
+   ],
+   "alpha": [
+    1e-05,
+    0.0001,
+    0.001,
+    0.01
+   ],
+   "learning_rate_init": [
+    0.0003,
+    0.001,
+    0.003
+   ],
+   "batch_size": [
+    "auto",
+    64,
+    128
+   ]
+  },
+  "ft_transformer": {
+   "d": [
+    32,
+    64
+   ],
+   "n_layers": [
+    2,
+    3
+   ],
+   "ff": [
+    64,
+    128
+   ],
+   "dropout": [
+    0.0,
+    0.1,
+    0.2
+   ],
+   "lr": [
+    0.0003,
+    0.001,
+    0.003
+   ],
+   "weight_decay": [
+    1e-05,
+    0.0001,
+    0.001
+   ],
+   "epochs": [
+    20,
+    40
+   ],
+   "batch": [
+    128,
+    256
+   ],
+   "class_weight": [
+    "none",
+    "balanced"
+   ]
+  },
+  "vchnet": {
+   "d": [
+    32,
+    48,
+    64
+   ],
+   "dropout": [
+    0.0,
+    0.1,
+    0.2
+   ],
+   "lr": [
+    0.0003,
+    0.001,
+    0.003
+   ],
+   "weight_decay": [
+    1e-05,
+    0.0001,
+    0.001
+   ],
+   "epochs": [
+    10,
+    20
+   ],
+   "batch": [
+    64,
+    128
+   ],
+   "class_weight": [
+    "none",
+    "balanced"
+   ]
+  },
+  "swingnnet": {
+   "d": [
+    32,
+    48,
+    64
+   ],
+   "lr": [
+    0.0003,
+    0.001,
+    0.003
+   ],
+   "weight_decay": [
+    1e-05,
+    0.0001,
+    0.001
+   ],
+   "epochs": [
+    10,
+    20
+   ],
+   "batch": [
+    64,
+    128
+   ],
+   "class_weight": [
+    "none",
+    "balanced"
+   ]
+  },
+  "fmtunet": {
+   "d": [
+    32,
+    48
+   ],
+   "dropout": [
+    0.0,
+    0.1,
+    0.2
+   ],
+   "lr": [
+    0.0003,
+    0.001,
+    0.003
+   ],
+   "weight_decay": [
+    1e-05,
+    0.0001,
+    0.001
+   ],
+   "epochs": [
+    10,
+    20
+   ],
+   "batch": [
+    64,
+    128
+   ],
+   "class_weight": [
+    "none",
+    "balanced"
+   ]
+  },
+  "timesenclip": {
+   "d": [
+    32,
+    48,
+    96
+   ],
+   "lr": [
+    0.0003,
+    0.001,
+    0.003
+   ],
+   "weight_decay": [
+    1e-05,
+    0.0001,
+    0.001
+   ],
+   "epochs": [
+    10,
+    20,
+    40
+   ],
+   "batch": [
+    64,
+    128
+   ],
+   "class_weight": [
+    "none",
+    "balanced"
+   ]
+  }
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "model": "ft_transformer",
+ "part": "alt",
+ "trial": 7,
+ "hp": {
+  "batch": 256,
+  "class_weight": "balanced",
+  "d": 32,
+  "dropout": 0.2,
+  "epochs": 40,
+  "ff": 64,
+  "lr": 0.001,
+  "n_layers": 3,
+  "weight_decay": 1e-05
+ },
+ "quick": false,
+ "cpu": [
+  "Intel(R) Xeon(R) 6972P"
+ ],
+ "host": "c161.nibi.sharcnet",
+ "versions": {
+  "sklearn": "1.8.0",
+  "torch": "2.14.1",
+  "numpy": "1.26.4",
+  "pandas": "3.0.5"
+ }
+}

@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Secrets - never commit
+credentials/
+credentials.zip
+*.json.key
+.env
+*service-account*.json
+ee-*.json
+
+# Large files kept on Zenodo only
+3_Data/3_Image_patches_9x9/
+3_Data/4_Maps_2021-2025/
+3_Data/5_Land_change_model_hindcast_2025_scenario_2029/
+3_Data/7_Sentinel-2_feature_tiles/*/
+*.zip
+
+# Links and outputs created when running the code
+/data
+/models
+/maps
+/land_change
+4_Code/classifiers/results*/
+
+# OS / GIS clutter
+.DS_Store
+Thumbs.db
+*.aux.xml

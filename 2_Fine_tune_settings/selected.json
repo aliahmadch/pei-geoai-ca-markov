@@ -1,0 +1,189 @@
+{
+ "selected": {
+  "catboost": {
+   "trial": 26,
+   "hp": {
+    "class_weight": "balanced",
+    "depth": 8,
+    "iterations": 300,
+    "l2_leaf_reg": 1,
+    "learning_rate": 0.03
+   },
+   "cv_oa": 0.9013041606758289,
+   "cv_oa_sd": 0.07228644750743098,
+   "cv_oa_common": 0.9002180061004726,
+   "cv_f1": 0.8678468707932755,
+   "default_cv_oa": 0.8972166391377792,
+   "trials_done": 30,
+   "trials_missing": []
+  },
+  "lightgbm": {
+   "trial": 29,
+   "hp": {
+    "class_weight": "balanced",
+    "colsample_bytree": 0.6,
+    "learning_rate": 0.05,
+    "min_child_samples": 10,
+    "n_estimators": 800,
+    "num_leaves": 15,
+    "reg_lambda": 0,
+    "subsample": 0.8
+   },
+   "cv_oa": 0.9012523576485264,
+   "cv_oa_sd": 0.07260342258734226,
+   "cv_oa_common": 0.9002016117856875,
+   "cv_f1": 0.8670181418421766,
+   "default_cv_oa": 0.8997224453820941,
+   "trials_done": 30,
+   "trials_missing": []
+  },
+  "xgboost": {
+   "trial": 9,
+   "hp": {
+    "class_weight": "balanced",
+    "colsample_bytree": 0.6,
+    "learning_rate": 0.03,
+    "max_depth": 4,
+    "min_child_weight": 1,
+    "n_estimators": 180,
+    "reg_lambda": 3,
+    "subsample": 0.6
+   },
+   "cv_oa": 0.902339078040778,
+   "cv_oa_sd": 0.07358104693519571,
+   "cv_oa_common": 0.9014805102428516,
+   "cv_f1": 0.8690952054220416,
+   "default_cv_oa": 0.8989519068425473,
+   "trials_done": 30,
+   "trials_missing": []
+  },
+  "deepmlp": {
+   "trial": 17,
+   "hp": {
+    "alpha": 0.01,
+    "batch_size": "auto",
+    "hidden": [
+     128,
+     64,
+     32
+    ],
+    "learning_rate_init": 0.0003
+   },
+   "cv_oa": 0.9003843309345322,
+   "cv_oa_sd": 0.06751417729395781,
+   "cv_oa_common": 0.8994560483350559,
+   "cv_f1": 0.8768728629634176,
+   "default_cv_oa": 0.895435123016119,
+   "trials_done": 30,
+   "trials_missing": []
+  },
+  "ft_transformer": {
+   "trial": 7,
+   "hp": {
+    "batch": 256,
+    "class_weight": "balanced",
+    "d": 32,
+    "dropout": 0.2,
+    "epochs": 40,
+    "ff": 64,
+    "lr": 0.001,
+    "n_layers": 3,
+    "weight_decay": 1e-05
+   },
+   "cv_oa": 0.9019814868085927,
+   "cv_oa_sd": 0.07478380151680265,
+   "cv_oa_common": 0.9003245704177177,
+   "cv_f1": 0.8715827446174492,
+   "default_cv_oa": 0.8882498609283758,
+   "trials_done": 30,
+   "trials_missing": []
+  },
+  "vchnet": {
+   "trial": 10,
+   "hp": {
+    "batch": 128,
+    "class_weight": "none",
+    "d": 48,
+    "dropout": 0.0,
+    "epochs": 10,
+    "lr": 0.0003,
+    "weight_decay": 1e-05
+   },
+   "cv_oa": 0.9229746092667701,
+   "cv_oa_sd": 0.0628177585515647,
+   "cv_oa_common": 0.9229746092667701,
+   "cv_f1": 0.8998541001115626,
+   "default_cv_oa": 0.9150100336779914,
+   "trials_done": 30,
+   "trials_missing": []
+  },
+  "swingnnet": {
+   "trial": 3,
+   "hp": {
+    "batch": 128,
+    "class_weight": "none",
+    "d": 64,
+    "epochs": 10,
+    "lr": 0.0003,
+    "weight_decay": 0.001
+   },
+   "cv_oa": 0.9267029125802927,
+   "cv_oa_sd": 0.04796141861042986,
+   "cv_oa_common": 0.9267029125802927,
+   "cv_f1": 0.8981986714645825,
+   "default_cv_oa": 0.9157431534160225,
+   "trials_done": 30,
+   "trials_missing": []
+  },
+  "fmtunet": {
+   "trial": 22,
+   "hp": {
+    "batch": 128,
+    "class_weight": "none",
+    "d": 32,
+    "dropout": 0.0,
+    "epochs": 10,
+    "lr": 0.003,
+    "weight_decay": 1e-05
+   },
+   "cv_oa": 0.9226197545577145,
+   "cv_oa_sd": 0.05399085293750001,
+   "cv_oa_common": 0.9226197545577145,
+   "cv_f1": 0.8996229572590567,
+   "default_cv_oa": 0.9074694798844072,
+   "trials_done": 30,
+   "trials_missing": []
+  },
+  "timesenclip": {
+   "trial": 1,
+   "hp": {
+    "batch": 64,
+    "class_weight": "none",
+    "d": 96,
+    "epochs": 10,
+    "lr": 0.001,
+    "weight_decay": 0.0001
+   },
+   "cv_oa": 0.9213367113586689,
+   "cv_oa_sd": 0.05302994995911255,
+   "cv_oa_common": 0.9213367113586689,
+   "cv_f1": 0.8982058347642271,
+   "default_cv_oa": 0.909893836025628,
+   "trials_done": 30,
+   "trials_missing": []
+  }
+ },
+ "rank_by_cv_oa_common": [
+  "swingnnet",
+  "vchnet",
+  "fmtunet",
+  "timesenclip",
+  "xgboost",
+  "ft_transformer",
+  "catboost",
+  "lightgbm",
+  "deepmlp"
+ ],
+ "n_trials": 30,
+ "k_folds": 3
+}

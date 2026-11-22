@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper."
+title: "Spatially Validated GeoAI and ANN-CA-Markov Modelling for Land-Change Scenarios in Prince Edward Island: code, models and data"
+type: software
+license: MIT
+repository-code: "https://github.com/aliahmadch/pei-geoai-ca-markov"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24238874
+    description: "Zenodo archive of the data, models and code"
+authors:
+  - family-names: Ahmad
+    given-names: Ali
+    affiliation: "University of Prince Edward Island"
+  - family-names: Khan
+    given-names: Muhammad Saadullah
+    affiliation: "University of Guelph"
+  - family-names: Hussain
+    given-names: Nazar
+    affiliation: "National University of Sciences and Technology (NUST)"
+  - family-names: Rafiq
+    given-names: Muhammad Modassir
+    affiliation: "National University of Sciences and Technology (NUST)"
+  - family-names: Yaseen
+    given-names: Ehtesham
+    affiliation: "University of Prince Edward Island"
+  - family-names: Farooque
+    given-names: Aitazaz A.
+    affiliation: "University of Prince Edward Island"
+preferred-citation:
+  type: article
+  title: "Spatially Validated GeoAI and ANN-CA-Markov Modelling for Land-Change Scenarios in Prince Edward Island"
+  authors:
+    - family-names: Ahmad
+      given-names: Ali
+    - family-names: Khan
+      given-names: Muhammad Saadullah
+    - family-names: Hussain
+      given-names: Nazar
+    - family-names: Rafiq
+      given-names: Muhammad Modassir
+    - family-names: Yaseen
+      given-names: Ehtesham
+    - family-names: Farooque
+      given-names: Aitazaz A.
+  status: submitted

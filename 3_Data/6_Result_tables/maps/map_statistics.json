@@ -1,0 +1,257 @@
+{
+ "area_ha": {
+  "2021": {
+   "Forest": 254534.59,
+   "Agricultural land": 277275.87,
+   "Wetland": 3831.02,
+   "Settlement": 8756.37,
+   "Otherland": 15665.8
+  },
+  "2022": {
+   "Forest": 231940.33,
+   "Agricultural land": 304250.57,
+   "Wetland": 3563.88,
+   "Settlement": 6087.64,
+   "Otherland": 14221.23
+  },
+  "2023": {
+   "Forest": 261396.41,
+   "Agricultural land": 267317.81,
+   "Wetland": 3082.83,
+   "Settlement": 5174.63,
+   "Otherland": 23091.97
+  },
+  "2024": {
+   "Forest": 257659.83,
+   "Agricultural land": 262919.12,
+   "Wetland": 4112.78,
+   "Settlement": 9904.64,
+   "Otherland": 25467.28
+  },
+  "2025": {
+   "Forest": 236727.52,
+   "Agricultural land": 243085.14,
+   "Wetland": 4067.0,
+   "Settlement": 14254.94,
+   "Otherland": 61929.05
+  }
+ },
+ "area_ha_raw": {
+  "2021": {
+   "Forest": 253396.27,
+   "Agricultural land": 275186.35,
+   "Wetland": 3997.53,
+   "Settlement": 11241.87,
+   "Otherland": 16241.63
+  },
+  "2022": {
+   "Forest": 231041.17,
+   "Agricultural land": 302316.28,
+   "Wetland": 3694.56,
+   "Settlement": 8331.0,
+   "Otherland": 14680.64
+  },
+  "2023": {
+   "Forest": 260057.59,
+   "Agricultural land": 266417.68,
+   "Wetland": 3167.71,
+   "Settlement": 7082.42,
+   "Otherland": 23338.25
+  },
+  "2024": {
+   "Forest": 255315.46,
+   "Agricultural land": 260525.94,
+   "Wetland": 4483.62,
+   "Settlement": 12894.25,
+   "Otherland": 26844.38
+  },
+  "2025": {
+   "Forest": 231633.65,
+   "Agricultural land": 238640.51,
+   "Wetland": 4265.82,
+   "Settlement": 16999.4,
+   "Otherland": 68524.27
+  }
+ },
+ "main4_share_of_land": {
+  "2021": 0.9720285363993896,
+  "2022": 0.9746078325204645,
+  "2023": 0.9587690256277122,
+  "2024": 0.9545278826790491,
+  "2025": 0.8894249787501831
+ },
+ "interannual": [
+  {
+   "interval": "2021-2022",
+   "agreement": 0.8947373749394377,
+   "Forest<->Agricultural land": 0.0744806059097033,
+   "Agricultural land<->Otherland": 0.01895413137417506,
+   "Agricultural land<->Settlement": 0.008261882377119101,
+   "Settlement<->Otherland": 0.0012181115485713097
+  },
+  {
+   "interval": "2022-2023",
+   "agreement": 0.8809300871427739,
+   "Forest<->Agricultural land": 0.08699846883474763,
+   "Agricultural land<->Otherland": 0.020783173483942406,
+   "Agricultural land<->Settlement": 0.004534395331673462,
+   "Forest<->Otherland": 0.0031693183444417433
+  },
+  {
+   "interval": "2023-2024",
+   "agreement": 0.8718509762238631,
+   "Forest<->Agricultural land": 0.06838451308168277,
+   "Agricultural land<->Otherland": 0.03921893520495394,
+   "Agricultural land<->Settlement": 0.005569081299955817,
+   "Forest<->Otherland": 0.00533726836226561
+  },
+  {
+   "interval": "2024-2025",
+   "agreement": 0.8360166920313432,
+   "Agricultural land<->Otherland": 0.08410220874002446,
+   "Forest<->Agricultural land": 0.03239387166083712,
+   "Forest<->Otherland": 0.026674146768853862,
+   "Agricultural land<->Settlement": 0.012477653209595017
+  }
+ ],
+ "n_changes_share": [
+  0.6869373329263557,
+  0.15135856433460732,
+  0.1243397781662852,
+  0.03303054929560238,
+  0.004333775277149302
+ ],
+ "never_changed_by_modal_class": {
+  "Forest": 76.8327,
+  "Agricultural land": 63.9411,
+  "Wetland": 75.438,
+  "Settlement": 49.3095,
+  "Otherland": 24.6715
+ },
+ "consensus": {
+  "coverage_early": 0.8947373749394377,
+  "coverage_late": 0.8360166920313432,
+  "coverage_both": 0.757488992545758,
+  "changed_share": 0.05698951813003916,
+  "changed_ha": 24177.350000000002,
+  "consistent_ha": 424242.05
+ },
+ "consensus_transition_ha": {
+  "Forest": {
+   "Forest": 199836.92,
+   "Agricultural land": 9352.12,
+   "Wetland": 10.31,
+   "Settlement": 1.89,
+   "Otherland": 2.21
+  },
+  "Agricultural land": {
+   "Forest": 5781.37,
+   "Agricultural land": 189750.32,
+   "Wetland": 5.64,
+   "Settlement": 80.82,
+   "Otherland": 3306.56
+  },
+  "Wetland": {
+   "Forest": 72.0,
+   "Agricultural land": 51.05,
+   "Wetland": 3054.45,
+   "Settlement": 10.22,
+   "Otherland": 6.84
+  },
+  "Settlement": {
+   "Forest": 212.02,
+   "Agricultural land": 1385.14,
+   "Wetland": 1.4,
+   "Settlement": 3621.76,
+   "Otherland": 40.71
+  },
+  "Otherland": {
+   "Forest": 550.7,
+   "Agricultural land": 3037.49,
+   "Wetland": 21.23,
+   "Settlement": 247.63,
+   "Otherland": 3801.25
+  }
+ },
+ "consensus_table": {
+  "Forest": {
+   "early_ha": 206453.01,
+   "late_ha": 209203.45,
+   "net_ha": 2750.44,
+   "persistence": 0.9679535309269649
+  },
+  "Agricultural land": {
+   "early_ha": 203576.12,
+   "late_ha": 198924.71,
+   "net_ha": -4651.41,
+   "persistence": 0.9320853546083893
+  },
+  "Wetland": {
+   "early_ha": 3093.03,
+   "late_ha": 3194.56,
+   "net_ha": 101.53,
+   "persistence": 0.987526794114509
+  },
+  "Settlement": {
+   "early_ha": 3962.32,
+   "late_ha": 5261.03,
+   "net_ha": 1298.71,
+   "persistence": 0.9140503543378626
+  },
+  "Otherland": {
+   "early_ha": 7157.57,
+   "late_ha": 7658.3,
+   "net_ha": 500.73,
+   "persistence": 0.5310810791930781
+  }
+ },
+ "largest_flows_ha": [
+  {
+   "src": "Agricultural land",
+   "dst": "Forest",
+   "ha": 9352.12
+  },
+  {
+   "src": "Forest",
+   "dst": "Agricultural land",
+   "ha": 5781.37
+  },
+  {
+   "src": "Otherland",
+   "dst": "Agricultural land",
+   "ha": 3306.56
+  },
+  {
+   "src": "Agricultural land",
+   "dst": "Otherland",
+   "ha": 3037.4900000000002
+  },
+  {
+   "src": "Agricultural land",
+   "dst": "Settlement",
+   "ha": 1385.14
+  },
+  {
+   "src": "Forest",
+   "dst": "Otherland",
+   "ha": 550.7
+  }
+ ],
+ "map_oa_mean": 0.9481437227628418,
+ "map_oa_mean_ci": [
+  0.9245676589957853,
+  0.9675585029881104
+ ],
+ "map_oa_raw_mean": 0.943492484351993,
+ "filter_gain_by_year": [
+  0.0046,
+  0.0026,
+  0.0159,
+  0.0005,
+  -0.0004
+ ],
+ "map_main4_PA_UA_range": [
+  0.8303030303030303,
+  1.0
+ ]
+}

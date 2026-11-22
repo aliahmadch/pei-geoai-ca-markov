@@ -1,0 +1,23 @@
+{
+ "model": "catboost",
+ "part": "alt",
+ "trial": 26,
+ "hp": {
+  "class_weight": "balanced",
+  "depth": 8,
+  "iterations": 300,
+  "l2_leaf_reg": 1,
+  "learning_rate": 0.03
+ },
+ "quick": false,
+ "cpu": [
+  "Intel(R) Xeon(R) 6972P"
+ ],
+ "host": "c161.nibi.sharcnet",
+ "versions": {
+  "sklearn": "1.8.0",
+  "torch": "2.14.1",
+  "numpy": "1.26.4",
+  "pandas": "3.0.5"
+ }
+}

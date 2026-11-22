@@ -1,0 +1,26 @@
+{
+ "model": "lightgbm",
+ "part": "default",
+ "trial": 0,
+ "hp": {
+  "n_estimators": 180,
+  "num_leaves": 31,
+  "learning_rate": 0.08,
+  "min_child_samples": 20,
+  "colsample_bytree": 0.8,
+  "subsample": 1.0,
+  "reg_lambda": 0,
+  "class_weight": "balanced"
+ },
+ "quick": false,
+ "cpu": [
+  "Intel(R) Xeon(R) 6972P"
+ ],
+ "host": "c161.nibi.sharcnet",
+ "versions": {
+  "sklearn": "1.8.0",
+  "torch": "2.14.1",
+  "numpy": "1.26.4",
+  "pandas": "3.0.5"
+ }
+}
